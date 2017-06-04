@@ -28,4 +28,14 @@ int indeksSzukanejWTablicy(int tab[], int rozmiar, int szukana);
 // b.
 int *wskaznikNaSzukanaWTablicy(int tab[], int rozmiar, int szukana);
 
+// 3.
+// a.
+int indeksSzukanejWPosortTablicy(int tab[], int rozmiar, int szukana);
+
+// b.
+int *wskaznikNaSzukanaWTabSort(int tab[], int rozmiar, int szukana);
+
+// 4.
+int liczbaWystapienMinWTab(int tab[], int rozmiar);
+
 #endif /* MinWTablicy_h */

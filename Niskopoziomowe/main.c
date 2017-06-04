@@ -52,6 +52,7 @@ void wymaganiaWstepne() {
 void najmniejszaWTablicy() {
     double tabDouble[] = {3.5, 4, 0.2, 1, 7, 8, 2, 5.8, 6.0, 9};
     int tabInt[] = {3, 4, 0, 1, 7, 8, 2, 5, 6, 9};
+    int tabIntSort[] = { 0, 1, 2, 4, 8, 16, 32, 64, 128, 256 };
     
     // 1.
     // a.
@@ -69,7 +70,18 @@ void najmniejszaWTablicy() {
     
     // b.
     printf("Wskaznik na szukana wartosc w tablicy: %d, wartosc pod wskaznikiem: %d\n", wskaznikNaSzukanaWTablicy(tabInt, 10, 0), *wskaznikNaSzukanaWTablicy(tabInt, 10, 0));
+    
+    // 3.
+    // a.
+    printf("Indeks szukanej wartości w posortowanej tablicy: %d\n", indeksSzukanejWPosortTablicy(tabIntSort, 10, 4));
+    
+    // b.
+    printf("Wskaznik na szukana wartosc w posortowanej tablicy: %d, wartosc pod wskaznikiem: %d\n", wskaznikNaSzukanaWTabSort(tabIntSort, 10, 8), *wskaznikNaSzukanaWTabSort(tabIntSort, 10, 8));
+    
+    // 4.
+    printf("Liczba wystapien najmniejszej wartosci w tablicy: %d\n", liczbaWystapienMinWTab(tabInt, 10));
 }
+
 
 
 int main(int argc, const char * argv[]) {
