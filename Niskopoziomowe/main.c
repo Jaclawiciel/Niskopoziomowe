@@ -42,6 +42,9 @@ void wymaganiaWstepne() {
     
     // 9.
     printf("Czy liczba jest kwadratowa: %d\n", czyLiczbaKwadratowa(36));
+    
+    // 10.
+    printf("Liczba liczb kwadratowych w przedziale: %d\n", liczbaLiczbKwadratowychWZakresie(5, 20));
 }
 
 

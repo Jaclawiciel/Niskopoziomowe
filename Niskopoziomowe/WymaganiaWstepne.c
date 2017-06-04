@@ -105,3 +105,17 @@ int czyLiczbaKwadratowa(unsigned int liczba) {
     } while (kwadrat < liczba);
     return 0;
 }
+
+// 10.
+int liczbaLiczbKwadratowychWZakresie(unsigned int lewa, unsigned int prawa) {
+    int i = 0, licznik = 0;
+    do {
+        if (i >= lewa && i <= prawa) {
+            if (czyLiczbaKwadratowa(i)) {
+                licznik++;
+            }
+        }
+        i++;
+    } while (i < prawa);
+    return licznik;
+}

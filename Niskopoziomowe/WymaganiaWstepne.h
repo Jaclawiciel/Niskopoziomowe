@@ -38,4 +38,7 @@ int ntyFibonacci(unsigned int n);
 // 9.
 int czyLiczbaKwadratowa(unsigned int liczba);
 
+// 10.
+int liczbaLiczbKwadratowychWZakresie(unsigned int lewa, unsigned int prawa);
+
 #endif /* WymaganiaWstepne_h */
