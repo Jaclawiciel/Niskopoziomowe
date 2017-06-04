@@ -10,6 +10,7 @@
 		A3431FC71ED370F100B6E790 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A3431FC61ED370F100B6E790 /* main.c */; };
 		A38E08AA1EE4449500614D69 /* WymaganiaWstepne.c in Sources */ = {isa = PBXBuildFile; fileRef = A38E08A81EE4449500614D69 /* WymaganiaWstepne.c */; };
 		A38E08AF1EE45D7900614D69 /* MinWTablicy.c in Sources */ = {isa = PBXBuildFile; fileRef = A38E08AD1EE45D7900614D69 /* MinWTablicy.c */; };
+		A38E08B31EE4808B00614D69 /* ZamianaWartosciZmiennych.c in Sources */ = {isa = PBXBuildFile; fileRef = A38E08B11EE4808B00614D69 /* ZamianaWartosciZmiennych.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		A38E08A91EE4449500614D69 /* WymaganiaWstepne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WymaganiaWstepne.h; sourceTree = "<group>"; };
 		A38E08AD1EE45D7900614D69 /* MinWTablicy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MinWTablicy.c; sourceTree = "<group>"; };
 		A38E08AE1EE45D7900614D69 /* MinWTablicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinWTablicy.h; sourceTree = "<group>"; };
+		A38E08B11EE4808B00614D69 /* ZamianaWartosciZmiennych.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ZamianaWartosciZmiennych.c; sourceTree = "<group>"; };
+		A38E08B21EE4808B00614D69 /* ZamianaWartosciZmiennych.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZamianaWartosciZmiennych.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +68,7 @@
 			children = (
 				A38E08AB1EE4456600614D69 /* 2.1. Wymagania wstępne */,
 				A38E08AC1EE45D3E00614D69 /* 2.2. Najmniejsza wartość w tablicy */,
+				A38E08B01EE4804F00614D69 /* 2.3. Zamiana wartości zmiennych */,
 				A3431FC61ED370F100B6E790 /* main.c */,
 			);
 			path = Niskopoziomowe;
@@ -86,6 +90,15 @@
 				A38E08AE1EE45D7900614D69 /* MinWTablicy.h */,
 			);
 			name = "2.2. Najmniejsza wartość w tablicy";
+			sourceTree = "<group>";
+		};
+		A38E08B01EE4804F00614D69 /* 2.3. Zamiana wartości zmiennych */ = {
+			isa = PBXGroup;
+			children = (
+				A38E08B11EE4808B00614D69 /* ZamianaWartosciZmiennych.c */,
+				A38E08B21EE4808B00614D69 /* ZamianaWartosciZmiennych.h */,
+			);
+			name = "2.3. Zamiana wartości zmiennych";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3431FC71ED370F100B6E790 /* main.c in Sources */,
+				A38E08B31EE4808B00614D69 /* ZamianaWartosciZmiennych.c in Sources */,
 				A38E08AF1EE45D7900614D69 /* MinWTablicy.c in Sources */,
 				A38E08AA1EE4449500614D69 /* WymaganiaWstepne.c in Sources */,
 			);

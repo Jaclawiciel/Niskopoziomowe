@@ -11,6 +11,7 @@
 
 #include "WymaganiaWstepne.h"
 #include "MinWTablicy.h"
+#include "ZamianaWartosciZmiennych.h"
 
 
 //*********************************************************************************************************
