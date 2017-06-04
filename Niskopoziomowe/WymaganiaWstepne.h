@@ -32,4 +32,7 @@ int czyLiczbyZaprzyjaznione(unsigned int liczba1, unsigned int liczba2);
 // 7.
 int czyWzgledniePierwsze(unsigned int liczba1, unsigned int liczba2);
 
+// 8.
+int ntyFibonacci(unsigned int n);
+
 #endif /* WymaganiaWstepne_h */

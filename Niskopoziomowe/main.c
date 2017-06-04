@@ -36,6 +36,9 @@ void wymaganiaWstepne() {
     
     // 7.
     printf("Czy liczy są względnie pierwsze: %d\n", czyWzgledniePierwsze(8, 15));
+    
+    // 8.
+    printf("N-ty wyraz ciagu Fibonacciego: %d\n", ntyFibonacci(8));
 }
 
 
