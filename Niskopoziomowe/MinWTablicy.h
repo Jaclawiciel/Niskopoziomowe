@@ -21,4 +21,11 @@ int indeksMaxWTablicy(double tab[], int rozmiar);
 // c.
 double *wskaznikNaMaxWTablicy(double tab[], int rozmiar);
 
+// 2.
+// a.
+int indeksSzukanejWTablicy(int tab[], int rozmiar, int szukana);
+
+// b.
+int *wskaznikNaSzukanaWTablicy(int tab[], int rozmiar, int szukana);
+
 #endif /* MinWTablicy_h */

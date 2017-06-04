@@ -37,3 +37,27 @@ int indeksMaxWTablicy(double tab[], int rozmiar) {
 double *wskaznikNaMaxWTablicy(double tab[], int rozmiar) {
     return tab + indeksMaxWTablicy(tab, 10);
 }
+
+// 2.
+// a.
+int indeksSzukanejWTablicy(int tab[], int rozmiar, int szukana) {
+    int i;
+    for (i = 0; i < rozmiar; i++) {
+        if (tab[i] == szukana) {
+            return i;
+        }
+    }
+    
+    return -1;
+}
+
+// b.
+int *wskaznikNaSzukanaWTablicy(int tab[], int rozmiar, int szukana) {
+    int i;
+    for (i = 0; i < rozmiar; i++) {
+        if (tab[i] == szukana) {
+            return tab + i;
+        }
+    }
+    return NULL;
+}

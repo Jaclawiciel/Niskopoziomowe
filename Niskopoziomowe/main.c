@@ -50,17 +50,25 @@ void wymaganiaWstepne() {
 
 // 2.2. Najmniejsza wartość w tablicy
 void najmniejszaWTablicy() {
-    double tab[] = {3.5, 4, 0.2, 1, 7, 8, 2, 5.8, 6.0, 9};
+    double tabDouble[] = {3.5, 4, 0.2, 1, 7, 8, 2, 5.8, 6.0, 9};
+    int tabInt[] = {3, 4, 0, 1, 7, 8, 2, 5, 6, 9};
     
     // 1.
     // a.
-    printf("Największa wartość w tablicy: %.1f\n", maxWTablicy(tab, 10));
+    printf("Największa wartość w tablicy: %.1f\n", maxWTablicy(tabDouble, 10));
     
     // b.
-    printf("Indeks największej wartości w tablicy: %d\n", indeksMaxWTablicy(tab, 10));
+    printf("Indeks największej wartości w tablicy: %d\n", indeksMaxWTablicy(tabDouble, 10));
     
     // c.
-    printf("Wskaznik na największą wartość w tablicy: %d, wartosc pod wskaznikiem: %.1f\n", wskaznikNaMaxWTablicy(tab, 10), *wskaznikNaMaxWTablicy(tab, 10));
+    printf("Wskaznik na największą wartość w tablicy: %d, wartosc pod wskaznikiem: %.1f\n", wskaznikNaMaxWTablicy(tabDouble, 10), *wskaznikNaMaxWTablicy(tabDouble, 10));
+    
+    // 2.
+    // a.
+    printf("Indeks wartości wyszukanej w tablicy: %d\n", indeksSzukanejWTablicy(tabInt, 10, 0));
+    
+    // b.
+    printf("Wskaznik na szukana wartosc w tablicy: %d, wartosc pod wskaznikiem: %d\n", wskaznikNaSzukanaWTablicy(tabInt, 10, 0), *wskaznikNaSzukanaWTablicy(tabInt, 10, 0));
 }
 
 
