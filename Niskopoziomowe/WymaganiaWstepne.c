@@ -80,3 +80,14 @@ int czyWzgledniePierwsze(unsigned int liczba1, unsigned int liczba2) {
     }
     return 1;
 }
+
+// 8.
+int ntyFibonacci(unsigned int n) {
+    if (n == 0) {
+        return 0;
+    }
+    if (n == 1) {
+        return 1;
+    }
+    return ntyFibonacci(n - 1) + ntyFibonacci(n - 2);
+}
