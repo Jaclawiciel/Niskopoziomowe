@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A3431FC71ED370F100B6E790 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A3431FC61ED370F100B6E790 /* main.c */; };
 		A38E08AA1EE4449500614D69 /* WymaganiaWstepne.c in Sources */ = {isa = PBXBuildFile; fileRef = A38E08A81EE4449500614D69 /* WymaganiaWstepne.c */; };
+		A38E08AF1EE45D7900614D69 /* MinWTablicy.c in Sources */ = {isa = PBXBuildFile; fileRef = A38E08AD1EE45D7900614D69 /* MinWTablicy.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		A3431FC61ED370F100B6E790 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		A38E08A81EE4449500614D69 /* WymaganiaWstepne.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = WymaganiaWstepne.c; sourceTree = "<group>"; };
 		A38E08A91EE4449500614D69 /* WymaganiaWstepne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WymaganiaWstepne.h; sourceTree = "<group>"; };
+		A38E08AD1EE45D7900614D69 /* MinWTablicy.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MinWTablicy.c; sourceTree = "<group>"; };
+		A38E08AE1EE45D7900614D69 /* MinWTablicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinWTablicy.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				A38E08AB1EE4456600614D69 /* 2.1. Wymagania wstępne */,
+				A38E08AC1EE45D3E00614D69 /* 2.2. Najmniejsza wartość w tablicy */,
 				A3431FC61ED370F100B6E790 /* main.c */,
 			);
 			path = Niskopoziomowe;
@@ -73,6 +77,15 @@
 				A38E08A91EE4449500614D69 /* WymaganiaWstepne.h */,
 			);
 			name = "2.1. Wymagania wstępne";
+			sourceTree = "<group>";
+		};
+		A38E08AC1EE45D3E00614D69 /* 2.2. Najmniejsza wartość w tablicy */ = {
+			isa = PBXGroup;
+			children = (
+				A38E08AD1EE45D7900614D69 /* MinWTablicy.c */,
+				A38E08AE1EE45D7900614D69 /* MinWTablicy.h */,
+			);
+			name = "2.2. Najmniejsza wartość w tablicy";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3431FC71ED370F100B6E790 /* main.c in Sources */,
+				A38E08AF1EE45D7900614D69 /* MinWTablicy.c in Sources */,
 				A38E08AA1EE4449500614D69 /* WymaganiaWstepne.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

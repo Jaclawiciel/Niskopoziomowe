@@ -91,3 +91,31 @@ int ntyFibonacci(unsigned int n) {
     }
     return ntyFibonacci(n - 1) + ntyFibonacci(n - 2);
 }
+
+// 9.
+int czyLiczbaKwadratowa(unsigned int liczba) {
+    int i = 0;
+    int kwadrat;
+    do {
+        kwadrat = i * i;
+        if (kwadrat == liczba) {
+            return 1;
+        }
+        i++;
+    } while (kwadrat < liczba);
+    return 0;
+}
+
+// 10.
+int liczbaLiczbKwadratowychWZakresie(unsigned int lewa, unsigned int prawa) {
+    int i = 0, licznik = 0;
+    do {
+        if (i >= lewa && i <= prawa) {
+            if (czyLiczbaKwadratowa(i)) {
+                licznik++;
+            }
+        }
+        i++;
+    } while (i < prawa);
+    return licznik;
+}
