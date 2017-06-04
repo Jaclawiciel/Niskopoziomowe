@@ -12,9 +12,16 @@
 #include "WymaganiaWstepne.h"
 #include "MinWTablicy.h"
 #include "ZamianaWartosciZmiennych.h"
+#include "Przykładowy.h"
 
 
 //*********************************************************************************************************
+
+double tabDouble[] = {3.5, 4, 0.2, 1, 7, 8, 2, 5.8, 6.0, 9};
+float tabFloat[] = {3.5, 4, 0.2, 1, 7, 8, 2, 5.8, 6.0, 9};
+int tabInt[] = {3, 4, 0, 1, 7, 8, 2, 5, 6, 9};
+int tabIntSort[] = { 0, 1, 2, 4, 8, 16, 32, 64, 128, 256 };
+
 
 // 2.1. Wymagania wstępne
 void wymaganiaWstepne() {
@@ -51,9 +58,7 @@ void wymaganiaWstepne() {
 
 // 2.2. Najmniejsza wartość w tablicy
 void najmniejszaWTablicy() {
-    double tabDouble[] = {3.5, 4, 0.2, 1, 7, 8, 2, 5.8, 6.0, 9};
-    int tabInt[] = {3, 4, 0, 1, 7, 8, 2, 5, 6, 9};
-    int tabIntSort[] = { 0, 1, 2, 4, 8, 16, 32, 64, 128, 256 };
+    
     
     // 1.
     // a.
@@ -104,6 +109,16 @@ void zamianaWartosciZmiennych() {
     printf("%d\n", tab[8]);
 }
 
+// Egzamin przykładowy
+
+void egzaminPrzykladowy() {
+    // 26.
+    float min, max;
+    mx_tab(tabFloat, 10, &min, &max);
+    printf("Najmniejsza: %.1f\nNajwieksza: %.1f\n", min, max);
+}
+
+
 
 
 int main(int argc, const char * argv[]) {
@@ -115,7 +130,10 @@ int main(int argc, const char * argv[]) {
     //najmniejszaWTablicy();
     
     // 2.3. Zamiana wartości zmiennych
-    zamianaWartosciZmiennych();
+    //zamianaWartosciZmiennych();
+    
+    // Egzamin przykładowy
+    egzaminPrzykladowy();
     
     printf("\n************************************\n\n");
     return 0;
