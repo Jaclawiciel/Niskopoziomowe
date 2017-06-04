@@ -83,6 +83,18 @@ void najmniejszaWTablicy() {
     printf("Liczba wystapien najmniejszej wartosci w tablicy: %d\n", liczbaWystapienMinWTab(tabInt, 10));
 }
 
+// 2.3.Zamiana wartości zmiennych
+void zamianaWartosciZmiennych() {
+    double liczba1 = 5.5;
+    double liczba2 = 3.5;
+    // 1.
+    printf("Zamiana wartosci jesli pierwsza wieksza\n");
+    printf("Wartosci przed zmiana:\nLiczba 1: %f\nLiczba 2: %f\n", liczba1, liczba2);
+    zamienJesliPierwszaWieksza(&liczba1, &liczba2);
+    printf("Wartosci przed zmiana:\nLiczba 1: %f\nLiczba 2: %f\n", liczba1, liczba2);
+    
+}
+
 
 
 int main(int argc, const char * argv[]) {
@@ -91,7 +103,10 @@ int main(int argc, const char * argv[]) {
     //wymaganiaWstepne();
     
     // 2.2. Najmniejsza wartość w tablicy
-    najmniejszaWTablicy();
+    //najmniejszaWTablicy();
+    
+    // 2.3. Zamiana wartości zmiennych
+    zamianaWartosciZmiennych();
     
     printf("\n************************************\n\n");
     return 0;

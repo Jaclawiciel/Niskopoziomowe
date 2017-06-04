@@ -12,3 +12,6 @@
 #include <stdio.h>
 
 #endif /* ZamianaWartosciZmiennych_h */
+
+// 1.
+void zamienJesliPierwszaWieksza(double *liczba1, double *liczba2);
