@@ -16,5 +16,11 @@
 // 26.
 void mx_tab(float tab[], int size, float *min, float *max);
 
-// 27.
+// 25.
 float *copy_tab(float tab[], int size);
+
+// 24.
+double *copy_var(double v);
+
+// 23.
+void zero_tab(int tab[], int size);

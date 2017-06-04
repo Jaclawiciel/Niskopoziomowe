@@ -37,3 +37,18 @@ float *copy_tab(float tab[], int size) {
     }
     return newTab;
 }
+
+// 24.
+double *copy_var(double v) {
+    double *ptr = malloc(5);
+    *ptr = v;
+    return ptr;
+}
+
+// 23.
+void zero_tab(int tab[], int size) {
+    int i;
+    for (i = 0; i < size; i++) {
+        *(tab + i) = 0;
+    }
+}

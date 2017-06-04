@@ -124,6 +124,17 @@ void egzaminPrzykladowy() {
     for (i = 0; i < 10; i++) {
         printf("%.1f\n", newTab[i]);
     }
+    
+    // 24.
+    double v = 10.5;
+    double *v_wsk = copy_var(10.5);
+    printf("%.1f\n", v_wsk[0]);
+    
+    // 23.
+    zero_tab(tabInt, 10);
+    for (i = 0; i < 10; i++) {
+        printf("%d\n", tabInt[i]);
+    }
 }
 
 
