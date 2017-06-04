@@ -112,6 +112,7 @@ void zamianaWartosciZmiennych() {
 // Egzamin przykładowy
 
 void egzaminPrzykladowy() {
+    /*
     // 26.
     float min, max;
     mx_tab(tabFloat, 10, &min, &max);
@@ -135,6 +136,16 @@ void egzaminPrzykladowy() {
     for (i = 0; i < 10; i++) {
         printf("%d\n", tabInt[i]);
     }
+     */
+    
+    // 22.
+    char text[] = "Pozdrowienia dla Pana Darka";
+    reverse_word(text);
+    int i;
+    for (i = 0; text[i] != 0; i++) {
+        printf("%c", text[i]);
+    }
+    
 }
 
 

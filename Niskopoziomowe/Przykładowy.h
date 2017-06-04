@@ -24,3 +24,6 @@ double *copy_var(double v);
 
 // 23.
 void zero_tab(int tab[], int size);
+
+// 22.
+void reverse_word(char text[]);

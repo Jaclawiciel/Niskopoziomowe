@@ -52,3 +52,58 @@ void zero_tab(int tab[], int size) {
         *(tab + i) = 0;
     }
 }
+
+// 22.
+char *second_word(char text[]) {
+    int i;
+    for (i = 0; text != 0; i++) {
+        if ((int)text[i] == 32 || (int)text[i] == 9) {
+            return text + i + 1;
+        }
+    }
+    return NULL;
+}
+
+int czySpacjaLubTabLubKoniec(char chr) {
+    if ((int)chr == 32 || (int)chr == 9 || chr == 0) {
+        return 1;
+    } else {
+        return 0;
+    }
+}
+
+
+void reverse_word(char text[]) {
+    int i = 0;
+    int dlugoscSlowa = 0;
+    
+    char *drugieSlowo = second_word(text);
+    
+    while (!czySpacjaLubTabLubKoniec(*(drugieSlowo + i))) {
+        dlugoscSlowa++;
+        i++;
+    }
+    printf("Dlugosc drugiego slowa: %d\n", dlugoscSlowa);
+    
+    char tempChar[dlugoscSlowa];
+    for (i = 0; i < dlugoscSlowa; i++) {
+        tempChar[i] = *(drugieSlowo + i);
+    }
+    
+    for (i = 0; i < dlugoscSlowa; i++) {
+        *(drugieSlowo + i) = *(tempChar + (dlugoscSlowa - 1) - i);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
