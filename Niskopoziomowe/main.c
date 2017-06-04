@@ -39,6 +39,9 @@ void wymaganiaWstepne() {
     
     // 8.
     printf("N-ty wyraz ciagu Fibonacciego: %d\n", ntyFibonacci(8));
+    
+    // 9.
+    printf("Czy liczba jest kwadratowa: %d\n", czyLiczbaKwadratowa(36));
 }
 
 

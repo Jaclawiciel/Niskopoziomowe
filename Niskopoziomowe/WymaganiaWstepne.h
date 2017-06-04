@@ -35,4 +35,7 @@ int czyWzgledniePierwsze(unsigned int liczba1, unsigned int liczba2);
 // 8.
 int ntyFibonacci(unsigned int n);
 
+// 9.
+int czyLiczbaKwadratowa(unsigned int liczba);
+
 #endif /* WymaganiaWstepne_h */
