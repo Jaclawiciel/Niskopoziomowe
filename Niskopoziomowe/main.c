@@ -116,7 +116,17 @@ void egzaminPrzykladowy() {
     float min, max;
     mx_tab(tabFloat, 10, &min, &max);
     printf("Najmniejsza: %.1f\nNajwieksza: %.1f\n", min, max);
+    
+    // 25.
+    float *newTab;
+    newTab = copy_tab(tabFloat, 10);
+    int i;
+    for (i = 0; i < 10; i++) {
+        printf("%.1f\n", newTab[i]);
+    }
 }
+
+
 
 
 

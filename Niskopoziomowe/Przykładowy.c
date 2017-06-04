@@ -27,3 +27,13 @@ void mx_tab(float tab[], int size, float *min, float *max) {
         }
     }
 }
+
+// 25.
+float *copy_tab(float tab[], int size) {
+    float *newTab = malloc(size);
+    int i;
+    for (i = 0; i < size; i++) {
+        newTab[i] = tab[i];
+    }
+    return newTab;
+}
