@@ -15,3 +15,15 @@
 
 // 1.
 void zamienJesliPierwszaWieksza(double *liczba1, double *liczba2);
+
+// 2.
+void ustawMaxMozliwaUInt(unsigned int *liczba);
+
+// 3.
+void zerowanieTablicy(int tab[], int rozmiar);
+
+// 4.
+void wypelnijTablicePierwszymElementem(int tab[], int rozmiar);
+
+// 5.
+void wypelnijFibonaccim(int tab[], int rozmiar);

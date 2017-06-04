@@ -93,6 +93,15 @@ void zamianaWartosciZmiennych() {
     zamienJesliPierwszaWieksza(&liczba1, &liczba2);
     printf("Wartosci przed zmiana:\nLiczba 1: %f\nLiczba 2: %f\n", liczba1, liczba2);
     
+    // 2.
+    unsigned int maxWartosc;
+    ustawMaxMozliwaUInt(&maxWartosc);
+    printf("Maksymalna wartosc: %u\n", maxWartosc);
+    
+    // 5.
+    int tab[10];
+    wypelnijFibonaccim(tab, 10);
+    printf("%d\n", tab[8]);
 }
 
 
