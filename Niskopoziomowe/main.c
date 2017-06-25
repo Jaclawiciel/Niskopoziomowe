@@ -138,14 +138,22 @@ void egzaminPrzykladowy() {
     }
      */
     
-    // 22.
     char text[] = "Pozdrowienia dla Pana Darka";
-    reverse_word(text);
-    int i;
-    for (i = 0; text[i] != 0; i++) {
-        printf("%c", text[i]);
-    }
+    char pali[] = "zakaz";
     
+    // 22.
+    //reverse_word(text);
+    //printf("%s\n", text);
+    
+    // 19.
+    //second_word19(text);
+    //printf("%s\n", text);
+    
+    // 20.
+    //printf("%s\n", second_word20(text));
+    
+    // 21.
+    printf("%d\n", palindrom(pali));
 }
 
 

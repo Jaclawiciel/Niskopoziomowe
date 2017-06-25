@@ -27,3 +27,12 @@ void zero_tab(int tab[], int size);
 
 // 22.
 void reverse_word(char text[]);
+
+// 19.
+char *second_word19(char text[]);
+
+// 20.
+char *second_word20(char text[]);
+
+// 21.
+int palindrom(char text[]);

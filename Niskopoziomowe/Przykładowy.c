@@ -95,6 +95,41 @@ void reverse_word(char text[]) {
     }
 }
 
+// 19.
+char *second_word19(char text[]) {
+    int rozmiar;
+    char ostatniZnak;
+    for (rozmiar = 0; text[rozmiar] != 0; rozmiar++) {
+        ostatniZnak = text[rozmiar];
+    }
+    int i;
+    for (i = 0; i < rozmiar; i++) {
+        text[i] = ostatniZnak;
+    }
+    return text;
+}
+
+// 20.
+char *second_word20(char text[]) {
+    char *ptr = NULL;
+    int i;
+    for (i = 0; text[i] != ' '; i++);
+    ptr = text + i + 1;
+    return ptr;
+}
+
+// 21.
+int palindrom(char text[]) {
+    int rozmiar;
+    for (rozmiar = 0; text[rozmiar] != 0; rozmiar++);
+    int i;
+    for (i = 0; i < rozmiar; i++) {
+        if (text[i] != text[rozmiar - i - 1]) {
+            return 0;
+        }
+    }
+    return 1;
+}
 
 
 
